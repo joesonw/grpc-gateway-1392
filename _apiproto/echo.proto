@@ -1,0 +1,21 @@
+// Code generated from <no value>. DO NOT EDIT.
+
+syntax = "proto3";
+
+option go_package = "example.com/grpc/api";
+package api;
+
+import "google/api/annotations.proto";
+
+message EchoMessage {
+    string Message = 1;
+}
+
+service EchoService {
+    rpc Echo (EchoMessage) returns (EchoMessage) {
+        option (google.api.http) = {
+            post: "/echo"
+            body: "*"
+        };
+    }
+}

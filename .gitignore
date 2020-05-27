@@ -1,0 +1,4 @@
+bazel-bin
+bazel-out
+bazel-grpc-gateway-1392
+bazel-testlogs
