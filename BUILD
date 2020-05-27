@@ -3,7 +3,7 @@ package(default_visibility = ["//visibility:public"])
 load("@bazel_gazelle//:def.bzl", "gazelle")
 
 gazelle(
-    prefix = "github.com/dstreamcloud/quiz",
+    prefix = "example.com/grpc",
     name = "gazelle",
     command = "fix",
     args = [
